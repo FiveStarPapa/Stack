@@ -4,6 +4,7 @@ namespace StackSimulation
 {
     public class StackClass
     {
+        //Class sets up a stack data structure
         private const int STACK_SIZE = 100;
         private int _top;
         private int[] stackArray = new int[STACK_SIZE];
